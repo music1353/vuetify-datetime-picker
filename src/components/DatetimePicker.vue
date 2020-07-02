@@ -158,6 +158,8 @@ export default {
   methods: {
     init() {
       if (!this.datetime) {
+        this.date = null
+        this.time = null
         return
       }
 
